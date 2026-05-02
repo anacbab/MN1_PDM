@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json.schemastore.org/web-manifest",
+  "name": "Minha Loja - PWA E-commerce",
+  "short_name": "Minha Loja",
+  "description": "Aplicação SPA e PWA de e-commerce com múltiplas categorias de produtos, suporte offline e instalação nativa",
+  
+  "scope": "./",
+  "start_url": "./index.html",
+  
+  "display": "standalone",
+  "orientation": "portrait",
+  
+  "theme_color": "#4b0082",
+  "background_color": "#ffffff",
+  
+  "icons": [
+    {
+      "src": "imagens/icone192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "imagens/icone512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "imagens/icone192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  
+  "screenshots": [
+    {
+      "src": "imagens/icone192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  
+  "categories": ["shopping", "e-commerce"],
+  "preferRelatedApplications": false
+}
